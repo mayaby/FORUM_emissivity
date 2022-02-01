@@ -1,0 +1,13 @@
+Emissivity labels
+
+1: Desert
+2: 45% desert and 55% grass
+3: Grass
+4: Dry grass
+5: Deciduous
+6: Conifer
+7: Water
+8: Fine snow
+9: Medium snow
+10: Coarse snow
+11: Ice
