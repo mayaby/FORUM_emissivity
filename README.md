@@ -10,7 +10,14 @@ The OUTPUTS/ folder has three sub-folders:
 
 EMISS/ has the theoretical emissivities used in the FEES (from Huang et al. 2018)
 
-runs.h5 is a dataset with all the runs used (and more not uploaded) with their parameters and settings
+runs.h5 is a dataset with all the runs used (and more not uploaded) with their parameters and settings. This is a useful reference to understand the folder names.
+
+Each folder contains a set of netCDF files for the cases treated in the paper. Each directory contains three files:
+- fe2es_fei_out_d0001.nc - the output of the FEI imager
+- fe2es_fsi_out_d0001.nc - the output of the FSI spectrometer
+- fe2es_sgm_ref_d0001_acq3.nc - The reference atmosphere for that case
+
+Any additional files are only meaningful for the FORUM E2E simulator full code.
 
 ## Code
 The jupyter notebook has the code for producing all the figures and tables found in the paper. It can be run in the same directory where the OUTPUTS/ and other folders can be found
