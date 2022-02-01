@@ -2,7 +2,8 @@
 Code and data for analysis in https://doi.org/10.5194/amt-2021-232
 
 ## Data
-The FEES outputs are in the compressed OUTPUTS folder. 
+The FEES outputs can be found here in an OUTPUTS folder:
+The OUTPUTS/ folder has three sub-folders: 
 - Final/ has all the full FEES retrieval run outputs used for the analysis
 - SGM/ has a few scene outputs for Figure 2
 - transmittance_results/ has the transmittance for scene 6718 which is not a default output of the FEES
