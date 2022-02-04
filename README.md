@@ -3,17 +3,18 @@ Code and data for analysis in "Emissivity Retrievals with FORUM's End-to-end Sim
 https://doi.org/10.5194/amt-2021-232
 
 ## Data
-The FEES outputs can be found here in an **OUTPUTS** folder:
-The OUTPUTS/ folder has three sub-folders: 
-- Final/ has all the full FEES retrieval run outputs used for the analysis
-- SGM/ has a few synthetic scene outputs used
-- transmittance_results/ has the transmittance for scene 67N 18E (not a default output of the FEES)
+The FEES outputs can be found here in an **OUTPUTS** folder: 10.5281/zenodo.5960223
 
-Each run folder contains a set of FEES ouput files, out of which two are important for the analysis:
+The OUTPUTS/ folder has three sub-folders:
+
+- Final/ has all the full FEES retrieval run outputs used for the analysis
+- SGM/ has the synthetic scene outputs shown in Figure 2
+- transmittance_results/ has the transmittance for scene 67N 18E (not a default output of the FEES) shown in Figure 3
+
+Each run folder in Final/ contains a set of FEES output files, out of which the following two are most important for the analysis:
 - fe2es_l2m_out_d0001.nc - the output of the L2M retrieval module
 - fe2es_sgm_ref_d0001_acq3.nc - the reference atmosphere (synthetic scene) for that case
-
-Any additional files are only meaningful for the FORUM E2E simulator full code.
+In addition the final emissivity jacobian d_emi_num_full.dat and the atmosphere steps in the iterative retrieval process 00x_L2M_OUT.nc are also used in the analysis of the paper and are included in the folders together with additional files that are relevant for the retrieval settings.
 
 **runs.h5** is a list of all the FEES runs used (and more not uploaded) with their parameters and settings. This is a useful reference to understand the folder names.
 
