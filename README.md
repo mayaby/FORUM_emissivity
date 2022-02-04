@@ -3,7 +3,7 @@ Code and data for analysis in "Emissivity Retrievals with FORUM's End-to-end Sim
 https://doi.org/10.5194/amt-2021-232
 
 ## Data
-The FEES outputs can be found here in an **OUTPUTS** folder: 10.5281/zenodo.5960223
+The FEES outputs can be found here in an **OUTPUTS** folder: **https://doi.org/10.5281/zenodo.5960223**
 
 The OUTPUTS/ folder has three sub-folders:
 
