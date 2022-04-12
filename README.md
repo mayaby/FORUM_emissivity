@@ -1,6 +1,6 @@
 # FORUM_emissivity
 Code and data for analysis in "Emissivity Retrievals with FORUM's End-to-end Simulator: Challenges and Recommendations"
-https://doi.org/10.5194/amt-2021-232
+https://amt.copernicus.org/articles/15/1755/2022/
 
 ## Data
 The FEES outputs can be found here in an **OUTPUTS** folder: **https://doi.org/10.5281/zenodo.5960223**
